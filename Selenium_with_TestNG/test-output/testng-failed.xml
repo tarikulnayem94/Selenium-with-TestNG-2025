@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestSuite(failed)">
+    <classes>
+      <class name="DemoQA_usingTestNG.SeleniumAutonation">
+        <methods>
+          <include name="WindowMultiple"/>
+          <include name="closeDriver"/>
+          <include name="clickOnMultipleButon"/>
+          <include name="BeforeAll"/>
+          <include name="selectingDateFromDatePicker"/>
+          <include name="submitInputForm"/>
+          <include name="testMenuNavigation"/>
+          <include name="handleAlerts"/>
+          <include name="selectDropdown"/>
+          <include name="Windows"/>
+        </methods>
+      </class> <!-- DemoQA_usingTestNG.SeleniumAutonation -->
+      <class name="DemoQA_usingTestNG.ClassForIndividualTestCase">
+        <methods>
+          <include name="testMenuNavigation"/>
+          <include name="BeforeAll"/>
+        </methods>
+      </class> <!-- DemoQA_usingTestNG.ClassForIndividualTestCase -->
+    </classes>
+  </test> <!-- TestSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

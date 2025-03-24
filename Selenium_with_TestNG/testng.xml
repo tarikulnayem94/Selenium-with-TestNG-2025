@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test thread-count="5" name="TestSuite">
+		<classes>
+			<class name="DemoQA_usingTestNG.test_IndividualCase" />
+			<class name="DemoQA_usingTestNG.ClassForIndividualTestCase" />
+			<class name="DemoQA_usingTestNG.SeleniumAutonation" />
+			<class name="DemoQA_usingTestNG.ScrollPage" />	
+		</classes>
+	</test> <!-- TestSuite -->
+</suite> <!-- Suite -->
